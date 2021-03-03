@@ -115,7 +115,8 @@ function draw() {
 
     if (collides(fruit)) {
         points+=1;
-        speed = speed + 1;
+        speed = 100;
+        
         context.clearRect(fruit.x, fruit.y, fruit.size+1, fruit.size+1);
         fruit = {
             x : getRandomNumber(20, 480),
