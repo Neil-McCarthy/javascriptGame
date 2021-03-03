@@ -9,7 +9,7 @@ let fruit = {
 }
 let points = 0;
 
-let speed = 10;
+let speed = 100;
 
 let interval_id;
 
