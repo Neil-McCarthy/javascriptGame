@@ -115,7 +115,7 @@ function draw() {
 
     if (collides(fruit)) {
         points+=1;
-        speed = 100;
+        speed = 10;
         
         context.clearRect(fruit.x, fruit.y, fruit.size+1, fruit.size+1);
         fruit = {
