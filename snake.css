@@ -1,10 +1,13 @@
 body {
-    background-color: black;
+    
 }
 
 canvas {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     border: 1px solid white;
+    background-color: black;
 }
